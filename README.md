@@ -1,6 +1,6 @@
 # mobile_student_sttnf
 
-Aplikasi Absensi Mahasiswa STT NF Berbasis Android Menggunakan Flutter Framework
+Aplikasi Absensi Mahasiswa STT Nurul Fikri Berbasis Android Menggunakan Flutter Framework
 
 ## Getting Started
 
