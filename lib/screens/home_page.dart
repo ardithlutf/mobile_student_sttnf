@@ -144,8 +144,8 @@ class _HomePageState extends State<HomePage> {
                   ),
                   subtitle: Text("Pemrograman Web",
                       style: TextStyle(color: Colors.black)),
-                  trailing: Icon(Icons.keyboard_arrow_right,
-                      color: Colors.black, size: 30.0)),
+                  trailing: Text("12 Nov",
+                      style: TextStyle(color: Colors.black)),),
             ),
             Padding(padding: EdgeInsets.only(top: 20))
           ],

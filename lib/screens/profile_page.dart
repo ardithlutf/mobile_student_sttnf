@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:mobile_student_sttnf/widgets/circle_avatar.dart';
+import 'package:mobile_student_sttnf/widgets/profile_card.dart';
+
+String nama = 'Ardith Lutfiawan';
+String role = 'Mahasiswa';
+String username = '0110217068';
+String email = 'ardith.lutfiawan@gmail.com';
+String noHp = '081317907503';
 
 class ProfilePage extends StatefulWidget {
   @override
@@ -37,51 +44,9 @@ class _ProfilePageState extends State<ProfilePage> {
                     color: Colors.indigo,
                   ),
                 ),
-                Card(
-                  margin:
-                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 15.0),
-                  color: Colors.white,
-                  child: ListTile(
-                    leading: Icon(
-                      Icons.confirmation_number,
-                      color: Colors.indigo,
-                    ),
-                    title: Text(
-                      'ardith24',
-                      style: TextStyle(color: Colors.black54, fontSize: 18),
-                    ),
-                  ),
-                ),
-                Card(
-                  margin:
-                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 15.0),
-                  color: Colors.white,
-                  child: ListTile(
-                    leading: Icon(
-                      Icons.email,
-                      color: Colors.indigo,
-                    ),
-                    title: Text(
-                      'ardith.lutfiawan@gmail.com',
-                      style: TextStyle(color: Colors.black54, fontSize: 18),
-                    ),
-                  ),
-                ),
-                Card(
-                  margin:
-                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 15.0),
-                  color: Colors.white,
-                  child: ListTile(
-                    leading: Icon(
-                      Icons.phone,
-                      color: Colors.indigo,
-                    ),
-                    title: Text(
-                      '081317907503',
-                      style: TextStyle(color: Colors.black54, fontSize: 18),
-                    ),
-                  ),
-                ),
+                ProfileCard(field: username, icon: Icons.confirmation_number),
+                ProfileCard(field: email, icon: Icons.email),
+                ProfileCard(field: noHp, icon: Icons.phone),
               ],
             ),
           ),

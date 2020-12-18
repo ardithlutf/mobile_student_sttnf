@@ -69,7 +69,7 @@ class LoginPage extends StatelessWidget {
                         ),
                         color: _isButtonPressed
                             ? Colors.white
-                            : Colors.indigoAccent,
+                            : Colors.orangeAccent,
                       )
                     ],
                   ),

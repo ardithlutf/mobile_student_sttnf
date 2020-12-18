@@ -5,6 +5,7 @@ import 'package:mobile_student_sttnf/screens/jadwal_page.dart';
 import 'package:mobile_student_sttnf/screens/home_page.dart';
 import 'package:mobile_student_sttnf/screens/login_page.dart';
 import 'package:mobile_student_sttnf/screens/mk_page.dart';
+import 'package:mobile_student_sttnf/screens/pengumuman_page.dart';
 import 'package:mobile_student_sttnf/screens/profile_page.dart';
 
 class DashboardPage extends StatefulWidget {
@@ -67,6 +68,8 @@ class _DashboardPageState extends State<DashboardPage> {
             ListTile(
               leading: Icon(Icons.notifications_none),
               title: Text('Pengumuman'),
+              onTap: () => Navigator.of(context).push(MaterialPageRoute(
+                  builder: (BuildContext context) => PengumumanPage())),
             ),
             ListTile(
               leading: Icon(Icons.book),
