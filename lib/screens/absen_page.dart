@@ -54,11 +54,11 @@ class _AbsenPageState extends State<AbsenPage> with TickerProviderStateMixin {
   }
 
   void getLocation() async {
-    String apiKey = 'AIzaSyB6iCZYgKBm1XZg45yAapLam3bsw3KDm18';
+    String apiKey = 'AIzaSyDkv0pGMFzMi76EAQZQJX0jvanwwhUZc5E';
 
     LocationResult result = await showLocationPicker(
       context, apiKey,
-      initialCenter: LatLng(31.1975844, 29.9598339),
+      initialCenter: LatLng(6, 106),
       automaticallyAnimateToCurrentLocation: true,
       myLocationButtonEnabled: true,
       requiredGPS: true,

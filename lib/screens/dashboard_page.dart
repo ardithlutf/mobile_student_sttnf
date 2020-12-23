@@ -16,7 +16,7 @@ class DashboardPage extends StatefulWidget {
 class _DashboardPageState extends State<DashboardPage> {
   int _index = 0;
   PageController _pageController;
-  List title = ['Dashboard', 'Absensi', 'Profile'];
+  List title = ['Beranda', 'Absensi', 'Profile'];
 
   @override
   void initState() {

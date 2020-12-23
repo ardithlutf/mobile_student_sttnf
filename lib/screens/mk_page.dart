@@ -30,7 +30,7 @@ class MKPage extends StatelessWidget {
                           border: new Border(
                               right: new BorderSide(
                                   width: 1.0, color: Colors.black54))),
-                      child: Icon(Icons.book, color: Colors.indigo),
+                      child: Icon(Icons.book, color: Colors.orangeAccent),
                     ),
                     title: Text(
                       "Pemrograman Web",
@@ -57,7 +57,7 @@ class MKPage extends StatelessWidget {
                           border: new Border(
                               right: new BorderSide(
                                   width: 1.0, color: Colors.black54))),
-                      child: Icon(Icons.book, color: Colors.indigo),
+                      child: Icon(Icons.book, color: Colors.orangeAccent),
                     ),
                     title: Text(
                       "Pemrograman Mobile",
@@ -84,7 +84,7 @@ class MKPage extends StatelessWidget {
                           border: new Border(
                               right: new BorderSide(
                                   width: 1.0, color: Colors.black54))),
-                      child: Icon(Icons.book, color: Colors.indigo),
+                      child: Icon(Icons.book, color: Colors.orangeAccent),
                     ),
                     title: Text(
                       "Basis Data II",
