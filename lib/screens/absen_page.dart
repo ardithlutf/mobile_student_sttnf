@@ -57,7 +57,8 @@ class _AbsenPageState extends State<AbsenPage> with TickerProviderStateMixin {
     String apiKey = 'AIzaSyDkv0pGMFzMi76EAQZQJX0jvanwwhUZc5E';
 
     LocationResult result = await showLocationPicker(
-      context, apiKey,
+      context,
+      apiKey,
       initialCenter: LatLng(6, 106),
       automaticallyAnimateToCurrentLocation: true,
       myLocationButtonEnabled: true,
@@ -88,7 +89,7 @@ class _AbsenPageState extends State<AbsenPage> with TickerProviderStateMixin {
 
   Widget buildAddAbsen() {
     return Scaffold(
-        resizeToAvoidBottomPadding: false,
+        resizeToAvoidBottomInset: false,
         key: _scaffoldState,
         body: SingleChildScrollView(
           child: Stack(
